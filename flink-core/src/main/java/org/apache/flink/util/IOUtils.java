@@ -32,7 +32,7 @@ import java.net.Socket;
 public final class IOUtils {
 
 	/** The block size for byte operations in byte. */
-	private static final int BLOCKSIZE = 4096;
+	private static final int BLOCKSIZE = 8192;
 
 	// ------------------------------------------------------------------------
 	//  Byte copy operations
